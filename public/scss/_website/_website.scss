@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100;200;300;400&display=swap');
+
+body{
+    background: #fff;
+    font-family: 'Anek Odia', sans-serif;
+}
+
+.preto{
+    background: #000;
+}
+
+.navbarr{
+    border-bottom: 3px solid #F29200;
+}
+
+.tophome{
+    background: url('/image/tecnolia2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 525px;
+}
+
+.blocotop{
+    position: absolute;
+    width: 60%;
+    margin-top: 60px;
+    margin-left: 3%;
+    padding: 40px;
+    border-radius: 10px;
+    background: #000;
+    color: #fff;
+    min-height: 250px;
+    opacity: 0.6;
+}
+
+.onelayer{
+    
+    border-radius:20px 20px 0px 0px;
+    border-top: 8px solid $laranja;
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: -50px;
+    min-height: 400px;
+}
+
+.twolayer{
+    background: $roxo;
+    min-height: 600px;
+    color:#fff;
+}
+
+.programador{
+    background: url('/image/programador.jpg');
+    margin-top: 10px;
+    min-height: 550px;
+}
+
+.borda{
+    border-bottom: 1px solid #ccc;;
+}
+
+.contato{
+    background: url('/image/contato.jpg') no-repeat center;
+    margin-top: 10px;
+    min-height: 500px;
+}
+
+.auto_top{
+    background: url('/image/auto-center.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 525px;
+}
+
+.bloco_autotop{
+    position: absolute;
+    width: 60%;
+    margin-top: 60px;
+    margin-left: 3%;
+    padding: 40px;
+    border-radius: 10px;
+    background: #000;
+    color: #fff;
+    min-height: 250px;
+    opacity: 0.6;
+}
+
+.auto_onelayer{
+    background: #fff;
+    min-height: 450px;
+    margin-top: -50px;
+    border-radius: 20px 20px 0 0;
+    border-top:5px solid $laranja;
+}
+
+.auto_twolayer{
+    padding-top: 25px;
+    background: $roxo;
+    min-height: 400px;
+    color:#fff;
+    border-top: 5px solid #fff;
+}
+
+.footer{
+    border-top: 5px solid $laranja;
+}
+
+.auto_layer{
+    border-top: 5px solid #CCC;
+    padding-top: 20px;
+}
